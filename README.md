@@ -20,13 +20,7 @@ git clone https://gitlab.com/kyleparry1/givenergy-data-downloader.git
 cd givenergy-data-downloader
 ```
 
-### **2️⃣ Create a Virtual Environment (Optional but Recommended)**
-```sh
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-```
-
-### **3️⃣ Install Dependencies**
+### **2️⃣ Install Dependencies**
 ```sh
 pip install -r requirements.txt
 ```
