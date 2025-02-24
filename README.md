@@ -16,7 +16,7 @@
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://gitlab.com/your-username/givenergy-data-downloader.git
+git clone https://gitlab.com/kyleparry1/givenergy-data-downloader.git
 cd givenergy-data-downloader
 ```
 
@@ -44,7 +44,7 @@ Before running the script, **edit `config.json`** with your GivEnergy API creden
 1️⃣ **Open `config.json`**
 ```json
 {
-    "base_url": "https://givenergy.cloud/inverter/CH2335G142/data/download",
+    "base_url": "https://givenergy.cloud/inverter/your_serial_number/data/download",
     "headers": {
         "X-XSRF-TOKEN": "your_full_xsrf_token_here",
         "User-Agent": "your_user_agent_here"
@@ -111,4 +111,4 @@ This project is **open-source** under the **MIT License**. See [`LICENSE`](LICEN
 ---
 
 ### 👨‍💻 **Maintainers**
-- **Your Name** ([Your GitLab Profile](https://gitlab.com/your-username))
+- **Kyle Parry** ([Kyle Parry](https://gitlab.com/kyleparry1))
